@@ -1,24 +1,14 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>me</title>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css">
-	</head>
-<body>
-	<div class="nav">
-		<a href="about.html">About</a>
-		<a href="contact.html">Contact</a>
-	</div> 
-	<h1>Sarah</h1>
-	<div class="blog">
-		<div class="post">
-			<h2> <a href="blogpost.2.html">Day Two<a/></h2>
-			<p>So, here's my second blog post. We're learning CSS, so...  <a href="blogpost.2.html">  Read More...</a></p>
-		</div>	
-		<div class="post">
-			<h2> <a href="blogpost.html">Day of Firsts<a/></h2>
-			<p>Why, hello, there! Today is a day of firsts...  <a href="blogpost.html">  Read More...</a></p>
-		</p>
-		<div/>
-</body>
-</html>
+---
+layout: default
+title: My Blog
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+      	<p>{{post.excerpt}}</p></li>
+    {% endfor %}
+  </ul>
+</div>
