@@ -1,0 +1,145 @@
+/* Homepage */
+body{
+	background: #C8A464;
+}
+h1{
+	color: white;
+	font-family: Impact;
+	font-size: 55px;
+	letter-spacing:.1875em;
+	line-height: 15px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.title a {
+	color: orange;
+}
+
+.nav {
+	margin-left: 80%
+}
+
+.extra {
+	border-radius: 70px;
+	background-color: #CBE86B;
+	height: 45px;
+	width: 45px;
+	padding: 8px;
+	display: inline-block;
+	margin: 8px;
+	line-height: 40px;
+	color: white;
+	text-align: center;
+	font-family: Times;
+	font-size: 90%;	
+}
+
+.blog {
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 60px;
+	padding: 20px;
+	width: 800px;
+	height: 300px;
+	text-align: center;
+	background-image: url(geometric-retro-pattern1.png);
+}
+
+h2{
+	font-family: Times;
+}
+.post {
+        border-radius: 2px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #607DB0;
+        text-align: left;
+        font-family: Times;
+}
+
+.post a{
+	color: white;
+}
+/*End Homepage */
+
+/* Begin Contact */
+.contactb{
+	text-align: center
+}
+
+.contactb a {
+	border-radius: 70px;
+	background-color: #490C34;
+	height: 45px;
+	width: 45px;
+	padding: 8px;
+	display: inline-block;
+	margin: 8px;
+	line-height: 40px;
+	color: white;
+	text-align:center;
+	font-size: 90%;
+}
+/*End Contact */
+
+/* Begin About */
+#abouthead {
+	text-align: left;
+	margin-left: 13.75%;
+}
+#images {
+	text-align: center;
+}
+
+p.me{
+	margin-left: 13.75%;
+}
+
+h3 {
+	margin-left: 13.75%;
+}
+
+
+ul {
+	margin-left: 13.75%	
+}
+/* End About */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
